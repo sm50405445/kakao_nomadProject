@@ -8,7 +8,7 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <title>Chats</title>
+    <title>Profile</title>
   </head>
 
   <body>
@@ -26,12 +26,24 @@
         </div>
       </div>
       <div class="header_bottom">
-        <div class="header_column"><i class="fa fa-caret-left"></i></div>
-        <div class="header_column">LSM</div>
-        <div class="header_column">
-          <i class="fa fa-search"></i> <i class="fa fa-bars"></i>
-        </div>
+        <div class="header_column"><i class="fa fa-times fa-lg"></i></div>
+
+        <div class="header_column"><i class="fa fa-user"></i></div>
       </div>
     </header>
+    <nav class="tab-bar">
+      <a href="index.html" class="tab-bar_tab tab-bar_tab--selected">
+        <i class="fa fa-user"></i><span class="tab-bar_title">Friends</span>
+      </a>
+      <a href="chats.html" class="tab-bar_tab">
+        <i class="fa fa-comment"></i><span class="tab-bar_title">Chats</span>
+      </a>
+      <a href="find.html" class="tab-bar_tab">
+        <i class="fa fa-search"></i><span class="tab-bar_title">Find</span>
+      </a>
+      <a href="more.html" class="tab-bar_tab">
+        <i class="fa fa-ellipsis-h"></i><span class="tab-bar_title">More</span>
+      </a>
+    </nav>
   </body>
 </html>

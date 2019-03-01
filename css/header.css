@@ -1,10 +1,11 @@
 .top-header {
   background-color: #413630;
   color: white;
-  padding: 5px 10px 15px 10px;
+  padding: 10px 20px 10px 0;
   position: fixed;
   width: 100%;
   top: 0;
+  z-index: 3;
 }
 
 .top-header .header_top,
@@ -24,6 +25,11 @@
 
 .top-header .header_column {
   width: 33%;
+}
+
+.top-header .header_bottom .header_column:first-child {
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
 }
 
 .top-header .header_column:last-child {

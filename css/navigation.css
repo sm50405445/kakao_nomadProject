@@ -4,12 +4,15 @@
   width: 100%;
   bottom: 0;
   display: flex;
-  justify-content: space-between;
-  padding: 10px 30px 5px 30px;
+  justify-content: space-around;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid #c1c1c1;
 }
 
 .tab-bar .tab-bar_tab {
-  display: flex;
+  text-align: center;
   align-items: center;
   flex-direction: column;
   text-decoration: none;
@@ -21,13 +24,12 @@
   margin-bottom: 5px;
   text-align: center;
   font-size: 24px;
-  color: #c1c1c1;
 }
 
 .tab-bar .tab-bar_title {
   font-size: 10px;
 }
 
-.tab-bar_tab .tab-bar_tab--selected {
+.tab-bar .tab-bar_tab--selected {
   color: #523737;
 }

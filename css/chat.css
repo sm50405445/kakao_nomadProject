@@ -39,7 +39,7 @@
   align-items: flex-end;
 }
 
-.chat_message-from-me img {
+.chat_message-to-me img {
   align-self: flex-start;
 }
 
@@ -116,4 +116,5 @@
   color: #523737;
   background-color: #ffe934;
   padding: 10px;
+  cursor: pointer;
 }
